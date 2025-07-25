@@ -1,3 +1,4 @@
+import ContactUs from "./Components/ContactUs"
 import Main from "./Components/Main"
 import Navbar from "./Components/Navbar"
 import OurMission from "./Components/OurMission"
@@ -12,6 +13,7 @@ function App() {
       <Main />
       <Services />
       <OurMission />
+      <ContactUs />
     </div>
   )
 }

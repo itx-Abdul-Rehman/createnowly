@@ -31,17 +31,7 @@ const Services = () => {
             id="projects"
             className="w-full py-20 px-4 sm:px-6 md:px-10 lg:px-16 text-white bg-[#151515]"
         >
-
-            <div className="w-full flex flex-col items-center justify-center">
-                <div className="w-1/2 shadow-lg rounded-lg p-4 bg-[#373737] "></div>
-             
-
-            </div>
-
-
-
-
-
+            
 
             <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-center mb-14">
                 Services
