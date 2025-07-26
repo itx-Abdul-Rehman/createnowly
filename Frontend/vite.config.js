@@ -11,5 +11,6 @@ export default defineConfig({
       },
     },
   },
-  plugins: [react(),tailwindcss(),],
+  base: '/createnowly/',
+  plugins: [react(), tailwindcss(),],
 })
