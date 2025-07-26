@@ -1,4 +1,5 @@
 import ContactUs from "./Components/ContactUs"
+import Footer from "./Components/Footer"
 import Main from "./Components/Main"
 import Navbar from "./Components/Navbar"
 import OurMission from "./Components/OurMission"
@@ -14,6 +15,7 @@ function App() {
       <Services />
       <OurMission />
       <ContactUs />
+      <Footer />
     </div>
   )
 }

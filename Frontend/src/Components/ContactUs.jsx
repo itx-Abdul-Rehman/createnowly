@@ -43,43 +43,113 @@ const ContactUs = () => {
                 >
                     <h2 className="text-3xl font-bold text-center mb-4">Start Your Project</h2>
 
-                    {/* Grid Inputs */}
+                    {/* Inputs */}
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-                        <input
-                            type="text"
-                            placeholder="First Name*"
-                            required
-                            className="p-3 rounded-lg bg-transparent border border-white/50 
-                 placeholder-white/60 focus:border-[#00FFC6] outline-none transition"
-                        />
-                        <input
-                            type="text"
-                            placeholder="Last Name*"
-                            required
-                            className="p-3 rounded-lg bg-transparent border border-white/50 
-                 placeholder-white/60 focus:border-[#00FFC6] outline-none transition"
-                        />
-                        <input
-                            type="email"
-                            placeholder="Email*"
-                            required
-                            className="p-3 rounded-lg bg-transparent border border-white/50 
-                 placeholder-white/60 focus:border-[#00FFC6] outline-none transition"
-                        />
-                        <input
-                            type="tel"
-                            placeholder="Phone Number*"
-                            required
-                            className="p-3 rounded-lg bg-transparent border border-white/50 
-                 placeholder-white/60 focus:border-[#00FFC6] outline-none transition"
-                        />
-                        <input
-                            type="text"
-                            placeholder="Budget*"
-                            required
-                            className="p-3 rounded-lg bg-transparent border border-white/50 
-                 placeholder-white/60 focus:border-[#00FFC6] outline-none transition"
-                        />
+                         {/* First Name */}
+                        <div className="w-full relative">
+                            <input
+                                id="firstname"
+                                type="text"
+                                required
+                                placeholder=" "
+                                className="peer w-full p-3 pt-5 rounded-lg bg-transparent border border-white/50 
+                                            placeholder-transparent text-white focus:border-[#00FFC6] outline-none transition"
+                            />
+                            <label
+                                htmlFor="firstname"
+                                className="absolute left-3 top-3 text-white/60 peer-focus:bg-[#373737] peer-focus:rounded-lg px-1
+                                              transition-all duration-200 ease-out
+                                              peer-placeholder-shown:top-3 peer-placeholder-shown:text-base
+                                              peer-focus:-top-2 peer-focus:text-sm peer-focus:text-[#00FFC6]
+                                              peer-not-placeholder-shown:-top-2 peer-not-placeholder-shown:text-sm"
+                            >
+                                First Name*
+                            </label>
+                        </div>
+                        {/* Last Name */}
+                        <div className="w-full relative">
+                            <input
+                                id="lastname"
+                                type="text"
+                                required
+                                placeholder=" "
+                                className="peer w-full p-3 pt-5 rounded-lg bg-transparent border border-white/50 
+                                            placeholder-transparent text-white focus:border-[#00FFC6] outline-none transition"
+                            />
+                            <label
+                                htmlFor="lastname"
+                                className="absolute left-3 top-3 text-white/60 peer-focus:bg-[#373737] peer-focus:rounded-lg px-1
+                                              transition-all duration-200 ease-out
+                                              peer-placeholder-shown:top-3 peer-placeholder-shown:text-base
+                                              peer-focus:-top-2 peer-focus:text-sm peer-focus:text-[#00FFC6]
+                                              peer-not-placeholder-shown:-top-2 peer-not-placeholder-shown:text-sm"
+                            >
+                                Last Name*
+                            </label>
+                        </div>
+                        {/* Email */}
+                        <div className="w-full relative">
+                            <input
+                                id="email"
+                                type="text"
+                                required
+                                placeholder=" "
+                                className="peer w-full p-3 pt-5 rounded-lg bg-transparent border border-white/50 
+                                            placeholder-transparent text-white focus:border-[#00FFC6] outline-none transition"
+                            />
+                            <label
+                                htmlFor="email"
+                                className="absolute left-3 top-3 text-white/60 peer-focus:bg-[#373737] peer-focus:rounded-lg px-1
+                                              transition-all duration-200 ease-out
+                                              peer-placeholder-shown:top-3 peer-placeholder-shown:text-base
+                                              peer-focus:-top-2 peer-focus:text-sm peer-focus:text-[#00FFC6]
+                                              peer-not-placeholder-shown:-top-2 peer-not-placeholder-shown:text-sm"
+                            >
+                                Email*
+                            </label>
+                        </div>
+                        {/* Phone Number */}
+                        <div className="w-full relative">
+                            <input
+                                id="phonenumber"
+                                type="text"
+                                required
+                                placeholder=" "
+                                className="peer w-full p-3 pt-5 rounded-lg bg-transparent border border-white/50 
+                                            placeholder-transparent text-white focus:border-[#00FFC6] outline-none transition"
+                            />
+                            <label
+                                htmlFor="phonenumber"
+                                className="absolute left-3 top-3 text-white/60 peer-focus:bg-[#373737] peer-focus:rounded-lg px-1
+                                              transition-all duration-200 ease-out
+                                              peer-placeholder-shown:top-3 peer-placeholder-shown:text-base
+                                              peer-focus:-top-2 peer-focus:text-sm peer-focus:text-[#00FFC6]
+                                              peer-not-placeholder-shown:-top-2 peer-not-placeholder-shown:text-sm"
+                            >
+                                Phone Number*
+                            </label>
+                        </div>
+                        {/* Budget */}
+                        <div className="w-full relative">
+                            <input
+                                id="budget"
+                                type="text"
+                                required
+                                placeholder=" "
+                                className="peer w-full p-3 pt-5 rounded-lg bg-transparent border border-white/50 
+                                            placeholder-transparent text-white focus:border-[#00FFC6] outline-none transition"
+                            />
+                            <label
+                                htmlFor="budget"
+                                className="absolute left-3 top-3 text-white/60 peer-focus:bg-[#373737] peer-focus:rounded-lg px-1
+                                              transition-all duration-200 ease-out
+                                              peer-placeholder-shown:top-3 peer-placeholder-shown:text-base
+                                              peer-focus:-top-2 peer-focus:text-sm peer-focus:text-[#00FFC6]
+                                              peer-not-placeholder-shown:-top-2 peer-not-placeholder-shown:text-sm"
+                            >
+                                Budget*
+                            </label>
+                        </div>
                     </div>
 
                     {/* Services */}
@@ -99,7 +169,8 @@ const ContactUs = () => {
                                 >
                                     <input
                                         type="checkbox"
-                                        className="form-checkbox h-5 w-5 text-[#00FFC6] rounded focus:ring-0 focus:outline-none"
+                                        className="form-checkbox h-5 w-5 rounded focus:ring-0 focus:outline-none"
+                                        style={{ accentColor: '#00FFC6' }}
                                     />
                                     <span className="text-white">{service}</span>
                                 </label>
@@ -111,13 +182,27 @@ const ContactUs = () => {
                     </div>
 
                     {/* Project Description */}
-                    <textarea
-                        placeholder="Project Description*"
-                        required
-                        rows="4"
-                        className="w-full p-3 rounded-lg bg-transparent border border-white/50 
+
+                    <div className="w-full relative">
+                        <textarea
+                            id="projectdescription"
+                            placeholder=" "
+                            required
+                            rows="4"
+                            className="peer w-full p-3 rounded-lg bg-transparent border border-white/50 
                placeholder-white/60 focus:border-[#00FFC6] outline-none transition"
-                    ></textarea>
+                        ></textarea>
+                        <label
+                            htmlFor="firstname"
+                            className="absolute left-3 top-3 text-white/60 peer-focus:bg-[#373737] peer-focus:rounded-lg px-1
+                                              transition-all duration-200 ease-out
+                                              peer-placeholder-shown:top-3 peer-placeholder-shown:text-base
+                                              peer-focus:-top-2 peer-focus:text-sm peer-focus:text-[#00FFC6]
+                                              peer-not-placeholder-shown:-top-2 peer-not-placeholder-shown:text-sm"
+                        >
+                            Project Description*
+                        </label>
+                    </div>
 
                     {/* Project Document Upload */}
                     <label className="block">
@@ -151,11 +236,9 @@ const ContactUs = () => {
 
             <div className="w-full mb-8 relative px-11 bottom-[25px]">
                 <hr className="w-full text-[#00FFC6]" />
-    
+
             </div>
 
-
-<div>hell</div>
 
 
 
